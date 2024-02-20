@@ -24,5 +24,4 @@ db.Users.First().Posts.Add(new Post { Name = "Minecraft_tutorial", Content = "So
 
 db.SaveChanges();
 
-
 Console.WriteLine(db.Posts.First().User.Posts.First().Blog.Posts.First().Name);
